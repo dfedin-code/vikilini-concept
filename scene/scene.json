@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "tiers": {
+    "full": {
+      "files": [
+        {
+          "path": "office-full.02387a77.glb",
+          "bytes": 7224756
+        }
+      ],
+      "totalBytes": 7744296,
+      "stats": {
+        "triangles": 195172,
+        "drawCalls": 85,
+        "textureMB": 79.4
+      }
+    },
+    "light": {
+      "files": [
+        {
+          "path": "office-light.4da072be.glb",
+          "bytes": 3886932
+        }
+      ],
+      "totalBytes": 4406472,
+      "stats": {
+        "triangles": 156492,
+        "drawCalls": 81,
+        "textureMB": 21.2
+      }
+    }
+  },
+  "env": {
+    "path": "env-open_w.341a5cfe.hdr",
+    "bytes": 105707
+  },
+  "probes": {
+    "corridor": {
+      "path": "env-corridor.dd0a41fb.hdr",
+      "bytes": 106913
+    },
+    "meeting": {
+      "path": "env-meeting.6291f8d3.hdr",
+      "bytes": 102541
+    },
+    "open_e": {
+      "path": "env-open_e.bad4baa6.hdr",
+      "bytes": 107302
+    },
+    "open_w": {
+      "path": "env-open_w.341a5cfe.hdr",
+      "bytes": 105707
+    },
+    "reception": {
+      "path": "env-reception.43b1501c.hdr",
+      "bytes": 97077
+    }
+  },
+  "render": {
+    "exposureEV": 1.25
+  },
+  "decoders": [
+    "meshopt"
+  ]
+}

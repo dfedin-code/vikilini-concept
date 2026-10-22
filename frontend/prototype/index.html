@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="ru" class="flight-page">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- «в Москве» (title, h1, eyebrow) взято из текущего публичного title главной vikilini.ru:
+         «Клининг коммерческой недвижимости Vikilini в Москве» (проверено 17.10.2026); это не выдуманный факт. Окончательные формулировки утверждает владелец. -->
+    <title>Клининг коммерческой недвижимости Vikilini в Москве (прототип)</title>
+    <meta name="description" content="Прототип этапа 1: клининг коммерческой недвижимости в Москве. Демонстрационный стенд, не производственный сайт." />
+    <!-- prototype stand: never indexable -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f7f7f7" />
+    <link rel="icon" href="../../assets/logo-vikilini-CBFAszxJ.png" type="image/png" />
+    <!-- boot snippet: "js" class + (flight page, scripted, motion allowed) the preloader class before the first paint. One literal text with header.php (ui/boot.ts). -->
+    <script>(function(d){var e=d.documentElement,p=null,m=false;e.classList.add("js");if(!e.classList.contains("flight-page"))return;try{p=localStorage.getItem("vikilini:animation")}catch(x){}try{m=matchMedia("(prefers-reduced-motion: reduce)").matches}catch(x){}if(p!=="off"&&(p==="on"||!m)){e.classList.add("is-preloading");setTimeout(function(){e.classList.contains("preload-owned")||e.classList.remove("is-preloading")},3e4)}})(document)</script>
+    <script type="module" crossorigin src="../../js/main-B33h595c.js"></script>
+    <link rel="stylesheet" crossorigin href="../../assets/main-CDDg6t6k.css">
+  </head>
+  <body data-prototype="stage-1b" data-cms-integration="NOT_RUN">
+    <a class="skip-link" href="#main">К содержимому</a>
+
+    <!-- Entry overlay. Hidden unless <html class="is-preloading"> (boot snippet, JS only); the page text below stays in the DOM. Same markup as partials/preloader.php. -->
+    <div class="preloader" data-preloader>
+      <div class="preloader__inner">
+        <img class="preloader__logo" src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="" />
+        <hr class="preloader__rule" />
+        <p class="preloader__title">Загружаем офис</p>
+        <div class="preloader__bar" role="progressbar" aria-label="Загрузка 3D-сцены" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="preloader__fill" data-fill></span></div>
+        <p class="preloader__status" data-status role="status">Загружено 0%</p>
+        <button class="preloader__skip" type="button" data-skip hidden>Пропустить</button>
+      </div>
+    </div>
+
+    <!-- Contract for local/templates/vikilini/header.php: same markup and data-attributes. -->
+    <header class="site-header">
+      <a class="site-header__logo" href="#reception" aria-label="VIKILINI — наверх">
+        <img src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="VIKILINI" />
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span><i class="sr-only">Меню</i>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#process">Как мы работаем</a></li>
+          <li><a href="#why">Почему VIKILINI</a></li>
+          <li><a href="#faq">Вопросы и ответы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <!-- accessible name is constant; only aria-pressed changes -->
+        <button class="anim-toggle" type="button" aria-pressed="true" data-anim-toggle>Анимация</button>
+        <a class="btn btn--sm" href="#request">Запросить расчёт</a>
+      </nav>
+    </header>
+
+    <main id="main" data-flight data-flight-state="poster">
+      <!-- The stage: a fixed layer behind the beat texts. Only the first still is in the HTML (it is the LCP and the no-JS picture);
+           ui/flight.ts puts the real-time canvas above it (lazy chunk) and adds the other stills only when it falls back to static. Decorative. -->
+      <div class="stage" data-stage aria-hidden="true">
+        <picture class="stage__layer is-on" data-layer="reception">
+          <source media="(min-width: 768px) and (orientation: landscape)" srcset="../../assets/still-reception-Bvt-oOKt.webp" />
+          <img src="../../assets/still-reception-CXiF40i7.webp" alt="" fetchpriority="high" decoding="async" />
+        </picture>
+      </div>
+
+      <!-- Six beats = six full-screen snap sections. The text is plain HTML on a white plaque; the stage never carries content. -->
+      <section class="beat beat--hero" id="reception" data-beat="reception" aria-labelledby="h-reception">
+        <div class="beat__body">
+          <p class="eyebrow">Vikilini · Москва</p>
+          <h1 id="h-reception">Клининг коммерческой недвижимости в Москве</h1>
+          <p class="lead">Поддерживаем порядок в офисах и других коммерческих помещениях. Формат обслуживания обсуждаем под конкретный объект.</p>
+          <div class="beat__actions">
+            <a class="btn" href="#request">Запросить расчёт</a>
+            <a class="link-quiet" href="#corridor">Об обслуживании</a>
+          </div>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <section class="beat" id="corridor" data-beat="corridor" aria-labelledby="h-corridor">
+        <div class="beat__body">
+          <p class="eyebrow">Услуги</p>
+          <h2 id="h-corridor">Регулярное обслуживание</h2>
+          <p class="lead">Уборка рабочих помещений и общих зон по графику, который согласуется с заказчиком. Перечень услуг и условия появятся после согласования формулировок.</p>
+          <div class="beat__actions"><a class="link-quiet" href="#request">Обсудить объект</a></div>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <section class="beat" id="openspace" data-beat="openspace" aria-labelledby="h-openspace">
+        <div class="beat__body">
+          <p class="eyebrow">Зоны обслуживания</p>
+          <h2 id="h-openspace">Рабочие зоны и общие пространства</h2>
+          <p class="lead">Open space, коридоры и зона ресепшен: единый подход к порядку во всём помещении.</p>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <section class="beat" id="meeting" data-beat="meeting" aria-labelledby="h-meeting">
+        <div class="beat__body">
+          <p class="eyebrow">Переговорные</p>
+          <h2 id="h-meeting">Переговорные и зоны встреч</h2>
+          <p class="lead">Порядок там, где вы принимаете клиентов и партнёров: переговорные, зоны ожидания, общие комнаты. График и формат согласуем с заказчиком.</p>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <section class="beat" id="equipment" data-beat="equipment" aria-labelledby="h-equipment">
+        <div class="beat__body">
+          <p class="eyebrow">Оборудование</p>
+          <h2 id="h-equipment">Оборудование и организация уборки</h2>
+          <p class="lead">Как устроена работа на объекте: оборудование, инвентарь и порядок обслуживания. Подробности появятся после согласования текста.</p>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <section class="beat beat--final" id="final" data-beat="final" aria-labelledby="h-final">
+        <div class="beat__body">
+          <p class="eyebrow">Следующий шаг</p>
+          <h2 id="h-final">Расскажите об объекте</h2>
+          <p class="lead">Укажите тип помещения, площадь и желаемую периодичность — подготовим расчёт.</p>
+          <div class="beat__actions"><a class="btn" href="#request">Запросить расчёт</a></div>
+          <span class="draft-tag">черновик текста</span>
+        </div>
+      </section>
+
+      <!-- home-sections:start (same markup as local/templates/vikilini/partials/home-sections.php; snap: one area taller than the screen) -->
+      <div class="after-flight" data-after-flight>
+
+        <section class="section section--services" id="services" aria-labelledby="h-services" data-source="current-site-2026-10-17">
+          <div class="section__inner">
+            <header class="section__head">
+              <h2 id="h-services">Услуги</h2>
+              <p class="section__lead">Vikilini — клининговая компания по уборке помещений в Москве и Московской области.</p>
+              <p class="src-tag" data-proto-label>текст с текущего сайта, требует подтверждения</p>
+            </header>
+            <div class="svc-grid">
+              <article class="svc-card">
+                <h3 class="svc-card__title" id="svc-1"><a href="/uslugi/uborka-pomeshenij/">Уборка помещений</a></h3>
+                <details class="svc-card__more" open>
+                  <summary id="svc-1-s" aria-labelledby="svc-1 svc-1-s">Состав услуг</summary>
+                  <ul class="svc-card__list">
+                    <li><a href="/uslugi/uborka-pomeshenij/vlazhnaya/">Влажная</a></li>
+                    <li><a href="/uslugi/uborka-pomeshenij/suhaya/">Сухая</a></li>
+                    <li><a href="/uslugi/uborka-pomeshenij/sanitarnaya/">Санитарная</a></li>
+                    <li><a href="/uslugi/poslestroitelnaja-uborka/">Послестроительная</a></li>
+                    <li><a href="/uslugi/generalnaja-uborka/">Генеральная</a></li>
+                    <li><a href="/uslugi/kompleksnaja-uborka/">Комплексная</a></li>
+                  </ul>
+                </details>
+              </article>
+              <article class="svc-card">
+                <h3 class="svc-card__title" id="svc-2"><a href="/uslugi/uborka-territorii/">Уборка территорий</a></h3>
+                <details class="svc-card__more">
+                  <summary id="svc-2-s" aria-labelledby="svc-2 svc-2-s">Состав услуг</summary>
+                  <ul class="svc-card__list">
+                    <li><a href="/uslugi/uborka-territorii/uborka-s-territorii-travy/">Уборка с территории травы</a></li>
+                    <li><a href="/uslugi/uborka-territorii/mehanizirovannaya/">Механизированная уборка</a></li>
+                    <li><a href="/uslugi/uborka-territorii/mekhanizirovannaya-uborka-i-vyvoz-snega/">Механизированная уборка и вывоз снега</a></li>
+                    <li><a href="/uslugi/uborka-territorii/ruchnaya/">Ручная уборка территорий</a></li>
+                    <li><a href="/uslugi/uborka-territorii/uborka-territorii-zhilogo-kompleksa/">Уборка территории жилого комплекса</a></li>
+                    <li><a href="/uslugi/uborka-territorii/letnyaya/">Летний период</a></li>
+                  </ul>
+                </details>
+              </article>
+              <article class="svc-card">
+                <h3 class="svc-card__title" id="svc-3"><a href="/uslugi/uborka-kommercheskoj-nedvizhimosti/">Уборка недвижимости</a></h3>
+                <details class="svc-card__more">
+                  <summary id="svc-3-s" aria-labelledby="svc-3 svc-3-s">Состав услуг</summary>
+                  <ul class="svc-card__list">
+                    <li><a href="/uslugi/uborka-proizvodstvennyh-pomeshenij/">Производственные помещения</a></li>
+                    <li><a href="/uslugi/uborka-sklada/">Склады</a></li>
+                    <li><a href="/uslugi/uborka-ofisov/">Офисы</a></li>
+                    <li><a href="/uslugi/uborka-ofisov/generalnaya/">Генеральная уборка офисов</a></li>
+                    <li><a href="/uslugi/zhilyih-kompleksov/">Жилые комплексы</a></li>
+                    <li><a href="/uslugi/uborka-ofisov-moskva-city/">Уборка офисов и апартаментов в Москва-Сити</a></li>
+                  </ul>
+                </details>
+              </article>
+              <article class="svc-card">
+                <h3 class="svc-card__title" id="svc-4"><a href="/uslugi/uborka-zdanij/">Уборка зданий</a></h3>
+                <details class="svc-card__more">
+                  <summary id="svc-4-s" aria-labelledby="svc-4 svc-4-s">Состав услуг</summary>
+                  <ul class="svc-card__list">
+                    <li><a href="/uslugi/uborka-torgovyh-centrov/">Торговые центры</a></li>
+                    <li><a href="/uslugi/uborka-biznes-centrov/">Бизнес-центры</a></li>
+                    <li><a href="/uslugi/uborka-administrativnyh-zdanij/">Административные здания</a></li>
+                    <li><a href="/uslugi/uborka-gosudarstvennyh-obektov/">Уборка государственных объектов</a></li>
+                    <li><a href="/uslugi/uborka-zdanij/uborka-mnogokvartirnyh-domov/">Уборка многоквартирных домов (мкд)</a></li>
+                    <li><a href="/uslugi/uborka-zdanij/uborka-mnogokvartirnogo-doma-posle/">Уборка многоквартирного дома после окончания строительства</a></li>
+                  </ul>
+                </details>
+              </article>
+              <article class="svc-card">
+                <h3 class="svc-card__title" id="svc-5">Специализированные услуги</h3>
+                <details class="svc-card__more">
+                  <summary id="svc-5-s" aria-labelledby="svc-5 svc-5-s">Состав услуг</summary>
+                  <ul class="svc-card__list">
+                    <li><a href="/vosstanovlenie-polov-v-moskve/">Восстановление полов в Москве</a></li>
+                    <li><a href="/himchistka-ofisov-s-vyezdom/">Химчистка офисов с выездом</a></li>
+                    <li><a href="/himchistka-kovrolina/">Химчистка ковролина в Москве</a></li>
+                    <li><a href="/himchistka-kovrov/">Химчистка ковров</a></li>
+                    <li><a href="/kristallizaciya-mramora/">Кристаллизация мрамора в Москве</a></li>
+                    <li><a href="/kristallizaciya-granita-v-moskve/">Кристаллизация гранита в Москве</a></li>
+                  </ul>
+                </details>
+              </article>
+              <a class="svc-all" href="/uslugi/">Посмотреть все услуги</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--process" id="process" aria-labelledby="h-process" data-source="current-site-2026-10-17">
+          <div class="section__inner">
+            <header class="section__head">
+              <h2 id="h-process">Как мы работаем</h2>
+              <p class="src-tag" data-proto-label>шаги — текст с текущего сайта, требует подтверждения</p>
+              <p class="draft-tag" data-proto-label>заголовок раздела — черновик (на текущем сайте блок назван «Три этапа работы»)</p>
+            </header>
+            <ol class="steps">
+              <li class="step"><p>Аудит помещения: выезд специалиста, разработка технологом методики и подбор средств.</p></li>
+              <li class="step"><p>Обработка материалов и покрытий с учетом их особенностей.</p></li>
+              <li class="step"><p>Проведение специальных работ: восстановление фактуры, уход за фасадами альпинистами и т.д.</p></li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="section section--why" id="why" aria-labelledby="h-why" data-source="current-site-2026-10-17">
+          <div class="section__inner">
+            <header class="section__head">
+              <h2 id="h-why">Почему VIKILINI</h2>
+              <p class="src-tag" data-proto-label>карточки — текст с текущего сайта, требует подтверждения</p>
+              <p class="draft-tag" data-proto-label>заголовок раздела — черновик (на текущем сайте у блока нет названия)</p>
+            </header>
+            <ul class="why-grid">
+              <li class="why-card">
+                <h3>Система качества</h3>
+                <p>В компании разработана система менеджмента качества. Сотрудники проходят регулярное повышение квалификации.</p>
+              </li>
+              <li class="why-card">
+                <h3>Индивидуальный подход</h3>
+                <p>У каждого объекта свои особенности. Оптимизируем затраты заказчика, разрабатываем техкарты и системы качества.</p>
+              </li>
+              <li class="why-card">
+                <h3>Сотрудники — профессионалы</h3>
+                <p>Сотрудники приятной внешности, воспитанные, без вредных привычек — с ними будет комфортно работать и общаться.</p>
+              </li>
+              <li class="why-card why-card--draft" data-proto-label>
+                <h3>Подтверждённые сведения о компании</h3>
+                <p>Место для проверенных фактов, документов и подтверждений. Формулировки появятся после согласования с владельцем.</p>
+                <span class="draft-tag" data-proto-label>черновик текста</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section section--faq" id="faq" aria-labelledby="h-faq" data-source="current-site-2026-10-17">
+          <div class="section__inner faq">
+            <header class="section__head">
+              <h2 id="h-faq">Вопросы и ответы</h2>
+              <p class="faq__more"><a class="link-quiet" href="/faq/">Все вопросы и ответы</a></p>
+              <p class="src-tag draft-tag" data-proto-label>черновик: вопросы придуманы, ответы — фрагменты текста с текущего сайта</p>
+            </header>
+            <div class="faq__list">
+              <details class="faq__item">
+                <summary>Какие виды уборки вы выполняете?</summary>
+                <div class="faq__answer"><p>Компания выполняет следующие виды уборки помещений: генеральную; ежедневную; послестроительную; санитарную; комплексную; вечернюю; после ремонта.</p></div>
+              </details>
+              <details class="faq__item">
+                <summary>Кто определяет состав работ и оборудование?</summary>
+                <div class="faq__answer"><p>Тип и объем клининговых процедур определяет заказчик, а состав работ, оборудование и профессиональную химию подбирает наш технолог после аудита объекта.</p></div>
+              </details>
+              <details class="faq__item">
+                <summary>С какими объектами вы работаете?</summary>
+                <div class="faq__answer"><p>Наша фирма специализируется на работе с коммерческими объектами: офисами, торговыми и бизнес-центрами, производственными и складскими площадями. Сотрудники оказывают разовые услуги или проводят клининговые мероприятия на постоянной основе.</p></div>
+              </details>
+              <details class="faq__item">
+                <summary>Есть ли дополнительные услуги?</summary>
+                <div class="faq__answer"><p>По согласованию с заказчиком наши клинеры оказывают дополнительные услуги (моют посуду, ухаживают за комнатными растениями) и наводят порядок на прилегающих территориях.</p></div>
+              </details>
+              <details class="faq__item" data-proto-label>
+                <summary>Другие вопросы — после согласования</summary>
+                <div class="faq__answer"><p>Здесь появятся вопросы и ответы, утверждённые владельцем.</p><span class="draft-tag" data-proto-label>черновик текста</span></div>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--contacts" id="contacts" aria-labelledby="h-contacts" data-source="current-site-2026-10-17">
+          <div class="section__inner contacts">
+            <div class="contacts__text">
+              <h2 id="h-contacts">Связаться с нами</h2>
+              <p class="src-tag" data-proto-label>с текущего сайта, подтвердить</p>
+              <p class="contacts__cta"><a class="btn btn--light" href="#request">Запросить расчёт</a></p>
+            </div>
+            <dl class="contacts__list">
+              <div><dt>Офис продаж</dt><dd><a class="contacts__phone" href="tel:+74957966857">+7 (495) 796-68-57</a></dd></div>
+              <div><dt>По эл. почте</dt><dd><a href="mailto:order@vikilini.ru">order@vikilini.ru</a></dd></div>
+              <div><dt>Приём заявок</dt><dd>Пн – Пт. с 9:00 до 18:00</dd></div>
+            </dl>
+          </div>
+        </section>
+
+      </div>
+      <!-- home-sections:end -->
+
+      <section class="request" id="request" aria-labelledby="h-request">
+        <div class="request__inner">
+          <h2 id="h-request">Запрос расчёта</h2>
+          <p class="request__lead">Заполните то, что известно сейчас: остальное уточним при обсуждении.</p>
+          <p class="demo-banner" role="note"><strong>Демонстрация:</strong> заявка не отправляется. Форма нужна, чтобы оценить интерфейс; данные остаются на этой странице.</p>
+
+          <!-- method=dialog: without JS the browser does nothing (no data in the URL, no fake success). -->
+          <form class="form" method="dialog" novalidate data-demo-form>
+            <div class="field">
+              <label for="f-name">Имя <span class="opt">(по желанию)</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" maxlength="80" aria-describedby="e-name" />
+              <p class="field__error" id="e-name" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">Телефон</label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" aria-describedby="h-phone e-phone" required />
+              <p class="field__hint" id="h-phone">Можно вставить из буфера в любом формате</p>
+              <p class="field__error" id="e-phone" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-type">Тип объекта</label>
+              <select id="f-type" name="type" aria-describedby="e-type">
+                <option value="">Выберите</option>
+                <option>Офис</option>
+                <option>Торговое помещение</option>
+                <option>Склад или производство</option>
+                <option>Другое</option>
+              </select>
+              <p class="field__error" id="e-type" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-area">Площадь, м² <span class="opt">(по желанию)</span></label>
+              <input id="f-area" name="area" type="number" inputmode="decimal" min="1" step="any" aria-describedby="e-area" />
+              <p class="field__error" id="e-area" aria-live="polite"></p>
+            </div>
+            <div class="field field--wide">
+              <label for="f-freq">Периодичность</label>
+              <select id="f-freq" name="frequency" aria-describedby="e-freq">
+                <option value="">Выберите</option>
+                <option>Регулярно</option>
+                <option>Разово</option>
+                <option>Пока не определились</option>
+              </select>
+              <p class="field__error" id="e-freq" aria-live="polite"></p>
+            </div>
+            <div class="field field--wide">
+              <label for="f-comment">Комментарий <span class="opt">(по желанию)</span></label>
+              <textarea id="f-comment" name="comment" maxlength="1000" aria-describedby="e-comment"></textarea>
+              <p class="field__error" id="e-comment" aria-live="polite"></p>
+            </div>
+            <div class="form__actions">
+              <button class="btn" type="submit">Запросить расчёт</button>
+              <p class="form__status" role="status" aria-live="polite" data-form-status></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <!-- footer:start (same markup as local/templates/vikilini/partials/footer-default.php) -->
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <a class="site-footer__logo" href="/" aria-label="VIKILINI — на главную"><img src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="VIKILINI"></a>
+          <p>Клининг коммерческой недвижимости в Москве</p>
+        </div>
+        <nav class="site-footer__col" aria-labelledby="f-nav" data-source="current-site-2026-10-17">
+          <p class="site-footer__title" id="f-nav">Навигация</p>
+          <ul>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#process">Как мы работаем</a></li>
+            <li><a href="#why">Почему VIKILINI</a></li>
+            <li><a href="#faq">Вопросы и ответы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <nav class="site-footer__col" aria-labelledby="f-pop" data-source="current-site-2026-10-17">
+          <p class="site-footer__title" id="f-pop">Популярные услуги</p>
+          <ul>
+            <li><a href="/uslugi/uborka-ofisov/generalnaya/">Генеральная уборка офисов</a></li>
+            <li><a href="/uslugi/uborka-ofisov/posle-remonta/">Уборка офисов после ремонта</a></li>
+            <li><a href="/uslugi/uborka-posle-remonta/">Уборка помещений после ремонта</a></li>
+            <li><a href="/uslugi/uborka-territorii/parki/">Уборка парков</a></li>
+            <li><a href="/uslugi/uborka-stroitelnoj-ploshadki/">Уборка строительной площадки</a></li>
+            <li><a href="/kompleksnoe-tehnicheskoe-obsluzhivanie/">Комплексное тех.обслуживание</a></li>
+          </ul>
+        </nav>
+        <nav class="site-footer__col" aria-labelledby="f-co" data-source="current-site-2026-10-17">
+          <p class="site-footer__title" id="f-co">Компания</p>
+          <ul>
+            <li><a href="/o-kompanii/">О компании</a></li>
+            <li><a href="/stati/">Статьи</a></li>
+            <li><a href="/news/">Новости</a></li>
+            <li><a href="/vakansii/">Вакансии</a></li>
+          </ul>
+        </nav>
+        <div class="site-footer__col site-footer__contacts" data-source="current-site-2026-10-17">
+          <p class="site-footer__title">Контакты</p>
+          <dl>
+            <div><dt>Офис продаж</dt><dd><a href="tel:+74957966857">+7 (495) 796-68-57</a></dd></div>
+            <div><dt>По эл. почте</dt><dd><a href="mailto:order@vikilini.ru">order@vikilini.ru</a></dd></div>
+            <div><dt>Приём заявок</dt><dd>Пн – Пт. с 9:00 до 18:00</dd></div>
+            <div><dt>Мы находимся</dt><dd>Офис продаж: Москва, Лужнецкая набережная 2/4 стр.12</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p class="site-footer__legal" data-proto-label>Политика обработки данных — после подтверждения <span class="draft-tag" data-proto-label>черновик текста</span></p>
+        <p class="src-tag site-footer__src" data-proto-label>ссылки и контакты — с текущего сайта, подтвердить</p>
+        <div class="proto-note" data-proto-label>
+          <p><strong>Демонстрационный стенд, этап 1.</strong> Это визуальный прототип, а не рабочий сайт на 1С-Битриксе. Интеграция с CMS не выполнялась (CMS_INTEGRATION = NOT_RUN).</p>
+          <p>Тексты — черновики или формулировки текущего сайта, требующие подтверждения. Ссылки на услуги и разделы ведут на адреса текущего сайта и на стенде не открываются. Интерьер — вымышленная визуализация, не объект компании; реалтайм-сцена и кадры — временные материалы прототипа.</p>
+        </div>
+      </div>
+      <!-- footer:end -->
+    </footer>
+  </body>
+</html>
