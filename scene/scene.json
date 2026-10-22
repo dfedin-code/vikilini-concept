@@ -4,13 +4,37 @@
     "full": {
       "files": [
         {
-          "path": "office-full.02387a77.glb",
-          "bytes": 7224756
+          "path": "office-full.c45ca93a.glb",
+          "bytes": 4824504
         }
       ],
-      "totalBytes": 7744296,
+      "totalBytes": 5344044,
+      "probes": {
+        "corridor": {
+          "path": "env-corridor.dd0a41fb.hdr",
+          "bytes": 106913
+        },
+        "meeting": {
+          "path": "env-meeting.6291f8d3.hdr",
+          "bytes": 102541
+        },
+        "open_e": {
+          "path": "env-open_e.bad4baa6.hdr",
+          "bytes": 107302
+        },
+        "open_w": {
+          "path": "env-open_w.341a5cfe.hdr",
+          "bytes": 105707
+        },
+        "reception": {
+          "path": "env-reception.43b1501c.hdr",
+          "bytes": 97077
+        }
+      },
+      "probeBytes": 519540,
       "stats": {
-        "triangles": 195172,
+        "triangles": 185956,
+        "vertices": 213762,
         "drawCalls": 85,
         "textureMB": 79.4
       }
@@ -18,15 +42,39 @@
     "light": {
       "files": [
         {
-          "path": "office-light.4da072be.glb",
-          "bytes": 3886932
+          "path": "office-light.e6dde7e3.glb",
+          "bytes": 1606648
         }
       ],
-      "totalBytes": 4406472,
+      "totalBytes": 1742613,
+      "probes": {
+        "corridor": {
+          "path": "env-corridor.light.d23eb948.hdr",
+          "bytes": 27846
+        },
+        "meeting": {
+          "path": "env-meeting.light.64730e7a.hdr",
+          "bytes": 26816
+        },
+        "open_e": {
+          "path": "env-open_e.light.d575067d.hdr",
+          "bytes": 28122
+        },
+        "open_w": {
+          "path": "env-open_w.light.d516ae83.hdr",
+          "bytes": 27431
+        },
+        "reception": {
+          "path": "env-reception.light.19241238.hdr",
+          "bytes": 25750
+        }
+      },
+      "probeBytes": 135965,
       "stats": {
-        "triangles": 156492,
+        "triangles": 68478,
+        "vertices": 99323,
         "drawCalls": 81,
-        "textureMB": 21.2
+        "textureMB": 17.8
       }
     }
   },

@@ -11,22 +11,21 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#f7f7f7" />
     <link rel="icon" href="../../assets/logo-vikilini-CBFAszxJ.png" type="image/png" />
-    <!-- boot snippet: "js" class + (flight page, scripted, motion allowed) the preloader class before the first paint. One literal text with header.php (ui/boot.ts). -->
-    <script>(function(d){var e=d.documentElement,p=null,m=false;e.classList.add("js");if(!e.classList.contains("flight-page"))return;try{p=localStorage.getItem("vikilini:animation")}catch(x){}try{m=matchMedia("(prefers-reduced-motion: reduce)").matches}catch(x){}if(p!=="off"&&(p==="on"||!m)){e.classList.add("is-preloading");setTimeout(function(){e.classList.contains("preload-owned")||e.classList.remove("is-preloading")},3e4)}})(document)</script>
-    <script type="module" crossorigin src="../../js/main-B33h595c.js"></script>
-    <link rel="stylesheet" crossorigin href="../../assets/main-CDDg6t6k.css">
+    <!-- boot snippet: the "js" class before the first paint. One literal text with header.php (ui/boot.ts). -->
+    <script>document.documentElement.classList.add("js")</script><script>/[?&]vk=([^&]*,)?blockload/.test(location.search)&&document.documentElement.classList.contains("flight-page")&&document.documentElement.classList.add("is-preloading")</script>
+    <script type="module" crossorigin src="../../js/main-DnaL-v4K.js"></script>
+    <link rel="stylesheet" crossorigin href="../../assets/main-CmMlmTgP.css">
   </head>
   <body data-prototype="stage-1b" data-cms-integration="NOT_RUN">
     <a class="skip-link" href="#main">К содержимому</a>
 
-    <!-- Entry overlay. Hidden unless <html class="is-preloading"> (boot snippet, JS only); the page text below stays in the DOM. Same markup as partials/preloader.php. -->
+    <!-- Progress chip of the real-time scene (the page is complete without it: the scene loads in the background). Hidden unless ui/preloader.ts sets <html class="is-loading3d"> (JS only).
+         The old full-screen overlay (`?vk=blockload`, A/B only) is this same element restyled by <html class="is-preloading">. Same markup as partials/preloader.php. -->
     <div class="preloader" data-preloader>
       <div class="preloader__inner">
-        <img class="preloader__logo" src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="" />
-        <hr class="preloader__rule" />
         <p class="preloader__title">Загружаем офис</p>
         <div class="preloader__bar" role="progressbar" aria-label="Загрузка 3D-сцены" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="preloader__fill" data-fill></span></div>
-        <p class="preloader__status" data-status role="status">Загружено 0%</p>
+        <p class="preloader__status" data-status role="status" aria-live="polite">Загружаем сцену</p>
         <button class="preloader__skip" type="button" data-skip hidden>Пропустить</button>
       </div>
     </div>
