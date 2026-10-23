@@ -4,34 +4,38 @@
     "full": {
       "files": [
         {
-          "path": "office-full.c45ca93a.glb",
-          "bytes": 4824504
+          "path": "office-full.2577e86f.glb",
+          "bytes": 4756024
         }
       ],
-      "totalBytes": 5344044,
+      "totalBytes": 5275436,
       "probes": {
         "corridor": {
-          "path": "env-corridor.dd0a41fb.hdr",
-          "bytes": 106913
+          "path": "env-corridor.cbf7930f.hdr",
+          "bytes": 106922
         },
         "meeting": {
-          "path": "env-meeting.6291f8d3.hdr",
-          "bytes": 102541
+          "path": "env-meeting.0a718420.hdr",
+          "bytes": 102542
         },
         "open_e": {
-          "path": "env-open_e.bad4baa6.hdr",
-          "bytes": 107302
+          "path": "env-open_e.feb9aba5.hdr",
+          "bytes": 107275
         },
         "open_w": {
-          "path": "env-open_w.341a5cfe.hdr",
-          "bytes": 105707
+          "path": "env-open_w.30e7579e.hdr",
+          "bytes": 105647
         },
         "reception": {
-          "path": "env-reception.43b1501c.hdr",
-          "bytes": 97077
+          "path": "env-reception.4823d145.hdr",
+          "bytes": 97026
         }
       },
-      "probeBytes": 519540,
+      "probeSize": [
+        256,
+        128
+      ],
+      "probeBytes": 519412,
       "stats": {
         "triangles": 185956,
         "vertices": 213762,
@@ -42,66 +46,70 @@
     "light": {
       "files": [
         {
-          "path": "office-light.e6dde7e3.glb",
-          "bytes": 1606648
+          "path": "office-light.fa526bd9.glb",
+          "bytes": 1600652
         }
       ],
-      "totalBytes": 1742613,
+      "totalBytes": 1736679,
       "probes": {
         "corridor": {
-          "path": "env-corridor.light.d23eb948.hdr",
-          "bytes": 27846
+          "path": "env-corridor.light.15422af1.hdr",
+          "bytes": 27855
         },
         "meeting": {
-          "path": "env-meeting.light.64730e7a.hdr",
-          "bytes": 26816
+          "path": "env-meeting.light.a4451f12.hdr",
+          "bytes": 26848
         },
         "open_e": {
-          "path": "env-open_e.light.d575067d.hdr",
-          "bytes": 28122
+          "path": "env-open_e.light.e814b906.hdr",
+          "bytes": 28133
         },
         "open_w": {
-          "path": "env-open_w.light.d516ae83.hdr",
-          "bytes": 27431
+          "path": "env-open_w.light.021aff96.hdr",
+          "bytes": 27439
         },
         "reception": {
-          "path": "env-reception.light.19241238.hdr",
-          "bytes": 25750
+          "path": "env-reception.light.427f5098.hdr",
+          "bytes": 25752
         }
       },
-      "probeBytes": 135965,
+      "probeSize": [
+        128,
+        64
+      ],
+      "probeBytes": 136027,
       "stats": {
-        "triangles": 68478,
-        "vertices": 99323,
+        "triangles": 68461,
+        "vertices": 99404,
         "drawCalls": 81,
         "textureMB": 17.8
       }
     }
   },
   "env": {
-    "path": "env-open_w.341a5cfe.hdr",
-    "bytes": 105707
+    "path": "env-open_w.30e7579e.hdr",
+    "bytes": 105647
   },
   "probes": {
     "corridor": {
-      "path": "env-corridor.dd0a41fb.hdr",
-      "bytes": 106913
+      "path": "env-corridor.cbf7930f.hdr",
+      "bytes": 106922
     },
     "meeting": {
-      "path": "env-meeting.6291f8d3.hdr",
-      "bytes": 102541
+      "path": "env-meeting.0a718420.hdr",
+      "bytes": 102542
     },
     "open_e": {
-      "path": "env-open_e.bad4baa6.hdr",
-      "bytes": 107302
+      "path": "env-open_e.feb9aba5.hdr",
+      "bytes": 107275
     },
     "open_w": {
-      "path": "env-open_w.341a5cfe.hdr",
-      "bytes": 105707
+      "path": "env-open_w.30e7579e.hdr",
+      "bytes": 105647
     },
     "reception": {
-      "path": "env-reception.43b1501c.hdr",
-      "bytes": 97077
+      "path": "env-reception.4823d145.hdr",
+      "bytes": 97026
     }
   },
   "render": {
