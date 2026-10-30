@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <!-- «в Москве» (title, h1, eyebrow) взято из текущего публичного title главной vikilini.ru:
          «Клининг коммерческой недвижимости Vikilini в Москве» (проверено 17.10.2026); это не выдуманный факт. Окончательные формулировки утверждает владелец. -->
-    <title>Клининг коммерческой недвижимости Vikilini в Москве (прототип)</title>
-    <meta name="description" content="Прототип этапа 1: клининг коммерческой недвижимости в Москве. Демонстрационный стенд, не производственный сайт." />
+    <!-- title / description = the current site's home, byte-exact (migration, content/pages/index.json; EX-07: the H1 stays the first beat until the owner decides) -->
+    <title>Клининг коммерческой недвижимости Vikilini в Москве</title>
+    <meta name="description" content="Компания клининга коммерческой недвижимости Vikilini предлагает услуги уборки помещений: офисов, магазинов, складов и т. д. Профессиональные средства, оперативная и качественная работа, большой перечень дополнительных услуг! Для заказа уборки помещений звоните в нашу клининговую фирму по телефону в Москве +7 (495) 796-68-57." />
     <!-- prototype stand: never indexable -->
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#f7f7f7" />
-    <link rel="icon" href="../../assets/logo-vikilini-CBFAszxJ.png" type="image/png" />
+    <link rel="icon" href="../../assets/logo-vikilini-xbt6cPCO.png" type="image/png" />
     <!-- boot snippet: the "js" class before the first paint. One literal text with header.php (ui/boot.ts). -->
     <script>document.documentElement.classList.add("js")</script><script>/[?&]vk=([^&]*,)?blockload/.test(location.search)&&document.documentElement.classList.contains("flight-page")&&document.documentElement.classList.add("is-preloading")</script>
-    <script type="module" crossorigin src="../../js/main-DScnCHJJ.js"></script>
-    <link rel="stylesheet" crossorigin href="../../assets/main-CmMlmTgP.css">
+    <!-- zone streaming: the scene manifest, the hero zone and the 3D chunk are fetched from here, at a low priority (vite.config.ts `sceneHints`; PHP: Assets::sceneHints) -->
+    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/scene.json" media="(prefers-reduced-motion: no-preference)" />
+    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.light.5825f8da.glb" media="(prefers-reduced-motion: no-preference) and (max-width: 767.98px), (prefers-reduced-motion: no-preference) and (orientation: portrait), (prefers-reduced-motion: no-preference) and (pointer: coarse), (prefers-reduced-motion: no-preference) and (pointer: none)" />
+    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.full.c60e6f81.glb" media="(prefers-reduced-motion: no-preference) and (min-width: 768px) and (orientation: landscape) and (pointer: fine)" />
+    <link rel="preload" as="script" crossorigin fetchpriority="low" href="../../js/runtime-DiRE9m8q.js" media="(prefers-reduced-motion: no-preference)" />
+    <script type="module" crossorigin src="../../js/main-C8hYvdTJ.js"></script>
+    <link rel="stylesheet" crossorigin href="../../assets/main-DwCHrixh.css">
   </head>
   <body data-prototype="stage-1b" data-cms-integration="NOT_RUN">
     <a class="skip-link" href="#main">К содержимому</a>
@@ -33,7 +39,7 @@
     <!-- Contract for local/templates/vikilini/header.php: same markup and data-attributes. -->
     <header class="site-header">
       <a class="site-header__logo" href="#reception" aria-label="VIKILINI — наверх">
-        <img src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="VIKILINI" />
+        <img src="../../assets/logo-vikilini-xbt6cPCO.png" width="516" height="178" alt="VIKILINI" />
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
         <span></span><i class="sr-only">Меню</i>
@@ -57,8 +63,8 @@
            ui/flight.ts puts the real-time canvas above it (lazy chunk) and adds the other stills only when it falls back to static. Decorative. -->
       <div class="stage" data-stage aria-hidden="true">
         <picture class="stage__layer is-on" data-layer="reception">
-          <source media="(min-width: 768px) and (orientation: landscape)" srcset="../../assets/still-reception-Bvt-oOKt.webp" />
-          <img src="../../assets/still-reception-CXiF40i7.webp" alt="" fetchpriority="high" decoding="async" />
+          <source media="(min-width: 768px) and (orientation: landscape)" srcset="../../assets/poster-desktop-B7gpuq-v.webp" />
+          <img src="../../assets/poster-mobile-BGlLqmD_.webp" alt="" fetchpriority="high" decoding="async" />
         </picture>
       </div>
 
@@ -130,7 +136,7 @@
           <div class="section__inner">
             <header class="section__head">
               <h2 id="h-services">Услуги</h2>
-              <p class="section__lead">Vikilini — клининговая компания по уборке помещений в Москве и Московской области.</p>
+              <p class="section__lead">Vikilini — клининговая компания по уборке помещений в Москве и Московской области. Наша фирма специализируется на работе с коммерческими объектами: офисами, торговыми и бизнес-центрами, производственными и складскими площадями. Сотрудники оказывают разовые услуги или проводят клининговые мероприятия на постоянной основе.</p>
               <p class="src-tag" data-proto-label>текст с текущего сайта, требует подтверждения</p>
             </header>
             <div class="svc-grid">
@@ -206,6 +212,28 @@
               </article>
               <a class="svc-all" href="/uslugi/">Посмотреть все услуги</a>
             </div>
+            <div class="svc-variants">
+              <h3 class="svc-variants__title">Варианты уборки</h3>
+              <p>Тип и объем клининговых процедур определяет заказчик, а состав работ, оборудование и профессиональную химию подбирает наш технолог после аудита объекта. Компания выполняет следующие виды уборки помещений:</p>
+              <ul class="svc-variants__kinds">
+                <li>генеральную;</li>
+                <li>ежедневную;</li>
+                <li>послестроительную;</li>
+                <li>санитарную;</li>
+                <li>комплексную;</li>
+                <li>вечернюю;</li>
+                <li>после ремонта.</li>
+              </ul>
+              <p>По согласованию с заказчиком наши клинеры оказывают дополнительные услуги (моют посуду, ухаживают за комнатными растениями) и наводят порядок на прилегающих территориях.</p>
+              <ul class="svc-variants__links">
+                <li><a href="/uslugi/kompleksnaja-uborka/">Комплексная уборка помещений</a></li>
+                <li><a href="/uslugi/uborka-territorii/">Уборка прилегающей территории</a></li>
+                <li><a href="/uslugi/uborka-zdanij/">Уход за зданиями</a></li>
+                <li><a href="/uslugi/uborka-territorii/parki/">Уход за газонами и зелеными насаждениями</a></li>
+                <li>Дератизация и дезинсекция</li>
+                <li>Вывоз мусора и снега</li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -258,28 +286,28 @@
             <header class="section__head">
               <h2 id="h-faq">Вопросы и ответы</h2>
               <p class="faq__more"><a class="link-quiet" href="/faq/">Все вопросы и ответы</a></p>
-              <p class="src-tag draft-tag" data-proto-label>черновик: вопросы придуманы, ответы — фрагменты текста с текущего сайта</p>
+              <p class="src-tag" data-proto-label>вопросы и ответы — со страницы /faq/ текущего сайта, требуют подтверждения</p>
             </header>
             <div class="faq__list">
               <details class="faq__item">
-                <summary>Какие виды уборки вы выполняете?</summary>
-                <div class="faq__answer"><p>Компания выполняет следующие виды уборки помещений: генеральную; ежедневную; послестроительную; санитарную; комплексную; вечернюю; после ремонта.</p></div>
+                <summary>Оказываете ли вы услуги в выходные и праздничные дни?</summary>
+                <div class="faq__answer"><p>Оказание наших услуг происходит в любое удобное для заказчика время, включая ночное время, выходные и праздничные дни.</p></div>
               </details>
               <details class="faq__item">
-                <summary>Кто определяет состав работ и оборудование?</summary>
-                <div class="faq__answer"><p>Тип и объем клининговых процедур определяет заказчик, а состав работ, оборудование и профессиональную химию подбирает наш технолог после аудита объекта.</p></div>
+                <summary>Как происходит оплата за оказанные услуги?</summary>
+                <div class="faq__answer"><p>Оплата происходит по безналичному расчету на основании выставленного счета.</p></div>
               </details>
               <details class="faq__item">
-                <summary>С какими объектами вы работаете?</summary>
-                <div class="faq__answer"><p>Наша фирма специализируется на работе с коммерческими объектами: офисами, торговыми и бизнес-центрами, производственными и складскими площадями. Сотрудники оказывают разовые услуги или проводят клининговые мероприятия на постоянной основе.</p></div>
+                <summary>Безопасно ли пропускать на территорию предприятия чужой персонал?</summary>
+                <div class="faq__answer"><p>Весь персонал имеет при себе все разрешительные документы, а также в компании имеется страхование ответственности третьих лиц.</p></div>
               </details>
               <details class="faq__item">
-                <summary>Есть ли дополнительные услуги?</summary>
-                <div class="faq__answer"><p>По согласованию с заказчиком наши клинеры оказывают дополнительные услуги (моют посуду, ухаживают за комнатными растениями) и наводят порядок на прилегающих территориях.</p></div>
+                <summary>Что из себя представляет комплексная уборка?</summary>
+                <div class="faq__answer"><p>Комплексная уборка включает в себя удаление пыли и грязи со всех поверхностей, мытье окон и оконных рам с двух сторон, очистку полов, плинтусов, стен, потолка и сантехники.</p></div>
               </details>
-              <details class="faq__item" data-proto-label>
-                <summary>Другие вопросы — после согласования</summary>
-                <div class="faq__answer"><p>Здесь появятся вопросы и ответы, утверждённые владельцем.</p><span class="draft-tag" data-proto-label>черновик текста</span></div>
+              <details class="faq__item">
+                <summary>Как часто делается генеральная уборка?</summary>
+                <div class="faq__answer"><p>В зависимости от назначения помещения, в среднем 1 раз в месяц. Техническое помещение раз в 3 месяца. Офис 1 раз в месяц. Все зависит от назначения помещения.</p></div>
               </details>
             </div>
           </div>
@@ -366,7 +394,7 @@
       <!-- footer:start (same markup as local/templates/vikilini/partials/footer-default.php) -->
       <div class="site-footer__top">
         <div class="site-footer__brand">
-          <a class="site-footer__logo" href="/" aria-label="VIKILINI — на главную"><img src="../../assets/logo-vikilini-CBFAszxJ.png" width="516" height="178" alt="VIKILINI"></a>
+          <a class="site-footer__logo" href="/" aria-label="VIKILINI — на главную"><img src="../../assets/logo-vikilini-xbt6cPCO.png" width="516" height="178" alt="VIKILINI"></a>
           <p>Клининг коммерческой недвижимости в Москве</p>
         </div>
         <nav class="site-footer__col" aria-labelledby="f-nav" data-source="current-site-2026-10-17">
@@ -414,7 +442,7 @@
         <p class="src-tag site-footer__src" data-proto-label>ссылки и контакты — с текущего сайта, подтвердить</p>
         <div class="proto-note" data-proto-label>
           <p><strong>Демонстрационный стенд, этап 1.</strong> Это визуальный прототип, а не рабочий сайт на 1С-Битриксе. Интеграция с CMS не выполнялась (CMS_INTEGRATION = NOT_RUN).</p>
-          <p>Тексты — черновики или формулировки текущего сайта, требующие подтверждения. Ссылки на услуги и разделы ведут на адреса текущего сайта и на стенде не открываются. Интерьер — вымышленная визуализация, не объект компании; реалтайм-сцена и кадры — временные материалы прототипа.</p>
+          <p>Тексты — черновики или формулировки текущего сайта, требующие подтверждения. Страницы текущего сайта перенесены на стенд по тем же адресам (снимок 29.10.2026, текст как есть; исключения — docs/seo/approved-exceptions.md). Интерьер — вымышленная визуализация, не объект компании; реалтайм-сцена и кадры — временные материалы прототипа.</p>
         </div>
       </div>
       <!-- footer:end -->
