@@ -8,6 +8,14 @@
     <!-- title / description = the current site's home, byte-exact (migration, content/pages/index.json; EX-07: the H1 stays the first beat until the owner decides) -->
     <title>Клининг коммерческой недвижимости Vikilini в Москве</title>
     <meta name="description" content="Компания клининга коммерческой недвижимости Vikilini предлагает услуги уборки помещений: офисов, магазинов, складов и т. д. Профессиональные средства, оперативная и качественная работа, большой перечень дополнительных услуг! Для заказа уборки помещений звоните в нашу клининговую фирму по телефону в Москве +7 (495) 796-68-57." />
+    <!-- link previews: the current site's set (og:title = the H1); Bitrix: Assets::og(), the migrated pages: render.ts og() -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Vikilini" />
+    <meta property="og:title" content="Клининг коммерческой недвижимости в Москве" />
+    <meta property="og:description" content="Компания клининга коммерческой недвижимости Vikilini предлагает услуги уборки помещений: офисов, магазинов, складов и т. д. Профессиональные средства, оперативная и качественная работа, большой перечень дополнительных услуг! Для заказа уборки помещений звоните в нашу клининговую фирму по телефону в Москве +7 (495) 796-68-57." />
+    <meta property="og:url" content="https://vikilini.ru/" />
+    <meta property="og:image" content="https://vikilini.ru/wp-content/uploads/2017/11/logo-viki2.png" />
+    <meta name="twitter:card" content="summary" />
     <!-- prototype stand: never indexable -->
     <meta name="robots" content="noindex, nofollow" />
     <meta name="theme-color" content="#f7f7f7" />
@@ -16,11 +24,11 @@
     <script>document.documentElement.classList.add("js")</script><script>/[?&]vk=([^&]*,)?blockload/.test(location.search)&&document.documentElement.classList.contains("flight-page")&&document.documentElement.classList.add("is-preloading")</script>
     <!-- zone streaming: the scene manifest, the hero zone and the 3D chunk are fetched from here, at a low priority (vite.config.ts `sceneHints`; PHP: Assets::sceneHints) -->
     <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/scene.json" media="(prefers-reduced-motion: no-preference)" />
-    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.light.5825f8da.glb" media="(prefers-reduced-motion: no-preference) and (max-width: 767.98px), (prefers-reduced-motion: no-preference) and (orientation: portrait), (prefers-reduced-motion: no-preference) and (pointer: coarse), (prefers-reduced-motion: no-preference) and (pointer: none)" />
-    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.full.c60e6f81.glb" media="(prefers-reduced-motion: no-preference) and (min-width: 768px) and (orientation: landscape) and (pointer: fine)" />
-    <link rel="preload" as="script" crossorigin fetchpriority="low" href="../../js/runtime-DiRE9m8q.js" media="(prefers-reduced-motion: no-preference)" />
-    <script type="module" crossorigin src="../../js/main-C8hYvdTJ.js"></script>
-    <link rel="stylesheet" crossorigin href="../../assets/main-DwCHrixh.css">
+    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.light.99e982f5.glb" media="(prefers-reduced-motion: no-preference) and (max-width: 767.98px), (prefers-reduced-motion: no-preference) and (orientation: portrait), (prefers-reduced-motion: no-preference) and (pointer: coarse), (prefers-reduced-motion: no-preference) and (pointer: none)" />
+    <link rel="preload" as="fetch" crossorigin fetchpriority="low" href="../../scene/z-reception-lite.full.3c892991.glb" media="(prefers-reduced-motion: no-preference) and (min-width: 768px) and (orientation: landscape) and (pointer: fine)" />
+    <link rel="preload" as="script" crossorigin fetchpriority="low" href="../../js/runtime-DO28wAba.js" media="(prefers-reduced-motion: no-preference)" />
+    <script type="module" crossorigin src="../../js/main-BzJWaNfR.js"></script>
+    <link rel="stylesheet" crossorigin href="../../assets/main-Dh33lNjE.css">
   </head>
   <body data-prototype="stage-1b" data-cms-integration="NOT_RUN">
     <a class="skip-link" href="#main">К содержимому</a>
@@ -63,8 +71,8 @@
            ui/flight.ts puts the real-time canvas above it (lazy chunk) and adds the other stills only when it falls back to static. Decorative. -->
       <div class="stage" data-stage aria-hidden="true">
         <picture class="stage__layer is-on" data-layer="reception">
-          <source media="(min-width: 768px) and (orientation: landscape)" srcset="../../assets/poster-desktop-B7gpuq-v.webp" />
-          <img src="../../assets/poster-mobile-BGlLqmD_.webp" alt="" fetchpriority="high" decoding="async" />
+          <source media="(min-width: 768px) and (orientation: landscape)" srcset="../../assets/poster-desktop-BuuP0rH-.webp" />
+          <img src="../../assets/poster-mobile-ClqioqWl.webp" alt="" fetchpriority="high" decoding="async" />
         </picture>
       </div>
 
@@ -78,7 +86,7 @@
             <a class="btn" href="#request">Запросить расчёт</a>
             <a class="link-quiet" href="#corridor">Об обслуживании</a>
           </div>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -88,7 +96,7 @@
           <h2 id="h-corridor">Регулярное обслуживание</h2>
           <p class="lead">Уборка рабочих помещений и общих зон по графику, который согласуется с заказчиком. Перечень услуг и условия появятся после согласования формулировок.</p>
           <div class="beat__actions"><a class="link-quiet" href="#request">Обсудить объект</a></div>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -97,7 +105,7 @@
           <p class="eyebrow">Зоны обслуживания</p>
           <h2 id="h-openspace">Рабочие зоны и общие пространства</h2>
           <p class="lead">Open space, коридоры и зона ресепшен: единый подход к порядку во всём помещении.</p>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -106,7 +114,7 @@
           <p class="eyebrow">Переговорные</p>
           <h2 id="h-meeting">Переговорные и зоны встреч</h2>
           <p class="lead">Порядок там, где вы принимаете клиентов и партнёров: переговорные, зоны ожидания, общие комнаты. График и формат согласуем с заказчиком.</p>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -115,7 +123,7 @@
           <p class="eyebrow">Оборудование</p>
           <h2 id="h-equipment">Оборудование и организация уборки</h2>
           <p class="lead">Как устроена работа на объекте: оборудование, инвентарь и порядок обслуживания. Подробности появятся после согласования текста.</p>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -125,7 +133,7 @@
           <h2 id="h-final">Расскажите об объекте</h2>
           <p class="lead">Укажите тип помещения, площадь и желаемую периодичность — подготовим расчёт.</p>
           <div class="beat__actions"><a class="btn" href="#request">Запросить расчёт</a></div>
-          <span class="draft-tag">черновик текста</span>
+          <span class="draft-tag" data-proto-label>черновик текста</span>
         </div>
       </section>
 
@@ -323,7 +331,7 @@
             <dl class="contacts__list">
               <div><dt>Офис продаж</dt><dd><a class="contacts__phone" href="tel:+74957966857">+7 (495) 796-68-57</a></dd></div>
               <div><dt>По эл. почте</dt><dd><a href="mailto:order@vikilini.ru">order@vikilini.ru</a></dd></div>
-              <div><dt>Приём заявок</dt><dd>Пн – Пт. с 9:00 до 18:00</dd></div>
+              <div><dt>Приём заявок</dt><dd>Пн&nbsp;– Пт. с&nbsp;9:00 до&nbsp;18:00</dd></div>
             </dl>
           </div>
         </section>
@@ -335,7 +343,6 @@
         <div class="request__inner">
           <h2 id="h-request">Запрос расчёта</h2>
           <p class="request__lead">Заполните то, что известно сейчас: остальное уточним при обсуждении.</p>
-          <p class="demo-banner" role="note"><strong>Демонстрация:</strong> заявка не отправляется. Форма нужна, чтобы оценить интерфейс; данные остаются на этой странице.</p>
 
           <!-- method=dialog: without JS the browser does nothing (no data in the URL, no fake success). -->
           <form class="form" method="dialog" novalidate data-demo-form>
@@ -363,7 +370,7 @@
             </div>
             <div class="field">
               <label for="f-area">Площадь, м² <span class="opt">(по желанию)</span></label>
-              <input id="f-area" name="area" type="number" inputmode="decimal" min="1" step="any" aria-describedby="e-area" />
+              <input id="f-area" name="area" type="text" inputmode="decimal" autocomplete="off" aria-describedby="e-area" />
               <p class="field__error" id="e-area" aria-live="polite"></p>
             </div>
             <div class="field field--wide">
@@ -395,7 +402,7 @@
       <div class="site-footer__top">
         <div class="site-footer__brand">
           <a class="site-footer__logo" href="/vikilini-concept/frontend/prototype/index.html" aria-label="VIKILINI — на главную"><img src="../../assets/logo-vikilini-xbt6cPCO.png" width="516" height="178" alt="VIKILINI"></a>
-          <p>Клининг коммерческой недвижимости в Москве</p>
+          <p>Клининг коммерческой недвижимости в&nbsp;Москве</p>
         </div>
         <nav class="site-footer__col" aria-labelledby="f-nav" data-source="current-site-2026-10-17">
           <p class="site-footer__title" id="f-nav">Навигация</p>
@@ -432,7 +439,7 @@
           <dl>
             <div><dt>Офис продаж</dt><dd><a href="tel:+74957966857">+7 (495) 796-68-57</a></dd></div>
             <div><dt>По эл. почте</dt><dd><a href="mailto:order@vikilini.ru">order@vikilini.ru</a></dd></div>
-            <div><dt>Приём заявок</dt><dd>Пн – Пт. с 9:00 до 18:00</dd></div>
+            <div><dt>Приём заявок</dt><dd>Пн&nbsp;– Пт. с&nbsp;9:00 до&nbsp;18:00</dd></div>
             <div><dt>Мы находимся</dt><dd>Офис продаж: Москва, Лужнецкая набережная 2/4 стр.12</dd></div>
           </dl>
         </div>

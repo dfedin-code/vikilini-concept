@@ -1,2 +1,3 @@
+# VIKILINI prototype stand: not for indexing (the production robots.txt is decided at release)
 User-agent: *
 Disallow: /
