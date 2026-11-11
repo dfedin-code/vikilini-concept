@@ -27,8 +27,8 @@
    "zones": {
     "reception": {
      "lite": {
-      "path": "z-reception-lite.full.bef05035.glb",
-      "bytes": 442216
+      "path": "z-reception-lite.full.b4d257ee.glb",
+      "bytes": 428908
      },
      "hq": {
       "path": "z-reception-hq.full.e765710d.glb",
@@ -51,8 +51,8 @@
     },
     "corridor": {
      "lite": {
-      "path": "z-corridor-lite.full.79438e06.glb",
-      "bytes": 142340
+      "path": "z-corridor-lite.full.104de058.glb",
+      "bytes": 138500
      },
      "hq": {
       "path": "z-corridor-hq.full.b84d2155.glb",
@@ -71,8 +71,8 @@
     },
     "meeting": {
      "lite": {
-      "path": "z-meeting-lite.full.df75c6b7.glb",
-      "bytes": 291736
+      "path": "z-meeting-lite.full.1a36b502.glb",
+      "bytes": 275904
      },
      "hq": {
       "path": "z-meeting-hq.full.41e9bfc5.glb",
@@ -87,8 +87,8 @@
     },
     "open_w": {
      "lite": {
-      "path": "z-open_w-lite.full.ceb8f445.glb",
-      "bytes": 444484
+      "path": "z-open_w-lite.full.53cec1c1.glb",
+      "bytes": 436564
      },
      "hq": {
       "path": "z-open_w-hq.full.e351d45c.glb",
@@ -107,8 +107,8 @@
     },
     "open_c": {
      "lite": {
-      "path": "z-open_c-lite.full.1b01436e.glb",
-      "bytes": 561164
+      "path": "z-open_c-lite.full.8d353f52.glb",
+      "bytes": 550824
      },
      "hq": {
       "path": "z-open_c-hq.full.ed407662.glb",
@@ -127,8 +127,8 @@
     },
     "open_e": {
      "lite": {
-      "path": "z-open_e-lite.full.d72dd51c.glb",
-      "bytes": 439052
+      "path": "z-open_e-lite.full.014dc002.glb",
+      "bytes": 427568
      },
      "hq": {
       "path": "z-open_e-hq.full.dd0f1020.glb",
@@ -147,8 +147,8 @@
     },
     "open_n": {
      "lite": {
-      "path": "z-open_n-lite.full.a5465e50.glb",
-      "bytes": 343764
+      "path": "z-open_n-lite.full.beaa8afd.glb",
+      "bytes": 328100
      },
      "hq": {
       "path": "z-open_n-hq.full.374a5fa5.glb",
@@ -165,8 +165,8 @@
     },
     "equipment": {
      "lite": {
-      "path": "z-equipment-lite.full.13986bad.glb",
-      "bytes": 261740
+      "path": "z-equipment-lite.full.4e683fbc.glb",
+      "bytes": 250440
      },
      "hq": {
       "path": "z-equipment-hq.full.4a39b53a.glb",
@@ -185,8 +185,8 @@
     },
     "final": {
      "lite": {
-      "path": "z-final-lite.full.2a473311.glb",
-      "bytes": 117640
+      "path": "z-final-lite.full.df908cf7.glb",
+      "bytes": 113832
      },
      "hq": {
       "path": "z-final-hq.full.89b40689.glb",
@@ -583,7 +583,7 @@
    "stats": {
     "reception": {
      "lite": {
-      "gzipBytes": 353046,
+      "gzipBytes": 337905,
       "triangles": 21030,
       "vertices": 25820,
       "drawCalls": 17,
@@ -613,7 +613,7 @@
     },
     "corridor": {
      "lite": {
-      "gzipBytes": 112993,
+      "gzipBytes": 109390,
       "triangles": 2743,
       "vertices": 3670,
       "drawCalls": 11,
@@ -643,7 +643,7 @@
     },
     "meeting": {
      "lite": {
-      "gzipBytes": 233710,
+      "gzipBytes": 214332,
       "triangles": 12742,
       "vertices": 17381,
       "drawCalls": 10,
@@ -673,7 +673,7 @@
     },
     "open_w": {
      "lite": {
-      "gzipBytes": 321524,
+      "gzipBytes": 313337,
       "triangles": 23961,
       "vertices": 31595,
       "drawCalls": 10,
@@ -703,7 +703,7 @@
     },
     "open_c": {
      "lite": {
-      "gzipBytes": 432829,
+      "gzipBytes": 418986,
       "triangles": 31329,
       "vertices": 41016,
       "drawCalls": 10,
@@ -733,7 +733,7 @@
     },
     "open_e": {
      "lite": {
-      "gzipBytes": 323931,
+      "gzipBytes": 311161,
       "triangles": 22447,
       "vertices": 29394,
       "drawCalls": 9,
@@ -763,7 +763,7 @@
     },
     "open_n": {
      "lite": {
-      "gzipBytes": 273857,
+      "gzipBytes": 254718,
       "triangles": 15441,
       "vertices": 20408,
       "drawCalls": 13,
@@ -793,7 +793,7 @@
     },
     "equipment": {
      "lite": {
-      "gzipBytes": 187186,
+      "gzipBytes": 176350,
       "triangles": 10300,
       "vertices": 15036,
       "drawCalls": 14,
@@ -823,7 +823,7 @@
     },
     "final": {
      "lite": {
-      "gzipBytes": 87037,
+      "gzipBytes": 82907,
       "triangles": 3736,
       "vertices": 4216,
       "drawCalls": 9,
@@ -856,14 +856,14 @@
     "gzipBytes": 293536,
     "textureMB": 4.22
    },
-   "totalBytes": 8645698
+   "totalBytes": 8552202
   },
   "light": {
    "zones": {
     "reception": {
      "lite": {
-      "path": "z-reception-lite.light.746db36d.glb",
-      "bytes": 299312
+      "path": "z-reception-lite.light.f260b5d9.glb",
+      "bytes": 290584
      },
      "hq": {
       "path": "z-reception-hq.light.afbd3cb4.glb",
@@ -883,8 +883,8 @@
     },
     "corridor": {
      "lite": {
-      "path": "z-corridor-lite.light.814d9c1c.glb",
-      "bytes": 121976
+      "path": "z-corridor-lite.light.f9505b2e.glb",
+      "bytes": 119736
      },
      "hq": {
       "path": "z-corridor-hq.light.4dcd3a31.glb",
@@ -900,8 +900,8 @@
     },
     "meeting": {
      "lite": {
-      "path": "z-meeting-lite.light.0806d41d.glb",
-      "bytes": 193304
+      "path": "z-meeting-lite.light.0c9ad39a.glb",
+      "bytes": 184840
      },
      "hq": {
       "path": "z-meeting-hq.light.52677d0b.glb",
@@ -915,8 +915,8 @@
     },
     "open_w": {
      "lite": {
-      "path": "z-open_w-lite.light.2a9f9dc6.glb",
-      "bytes": 288528
+      "path": "z-open_w-lite.light.ba6e9473.glb",
+      "bytes": 283500
      },
      "hq": {
       "path": "z-open_w-hq.light.1e44c019.glb",
@@ -933,8 +933,8 @@
     },
     "open_c": {
      "lite": {
-      "path": "z-open_c-lite.light.91a2441c.glb",
-      "bytes": 321844
+      "path": "z-open_c-lite.light.e5d4bef5.glb",
+      "bytes": 316028
      },
      "hq": {
       "path": "z-open_c-hq.light.971ffac0.glb",
@@ -951,8 +951,8 @@
     },
     "open_e": {
      "lite": {
-      "path": "z-open_e-lite.light.4964daf4.glb",
-      "bytes": 291044
+      "path": "z-open_e-lite.light.8bb869dc.glb",
+      "bytes": 283540
      },
      "hq": {
       "path": "z-open_e-hq.light.d0a56751.glb",
@@ -969,8 +969,8 @@
     },
     "open_n": {
      "lite": {
-      "path": "z-open_n-lite.light.32115dc0.glb",
-      "bytes": 223108
+      "path": "z-open_n-lite.light.e1705219.glb",
+      "bytes": 214292
      },
      "hq": {
       "path": "z-open_n-hq.light.e16fe2d6.glb",
@@ -986,8 +986,8 @@
     },
     "equipment": {
      "lite": {
-      "path": "z-equipment-lite.light.3aed3784.glb",
-      "bytes": 183044
+      "path": "z-equipment-lite.light.873ee8d8.glb",
+      "bytes": 175968
      },
      "hq": {
       "path": "z-equipment-hq.light.2de58d9b.glb",
@@ -1004,8 +1004,8 @@
     },
     "final": {
      "lite": {
-      "path": "z-final-lite.light.486a5f8a.glb",
-      "bytes": 99180
+      "path": "z-final-lite.light.0a631fd0.glb",
+      "bytes": 96160
      },
      "hq": {
       "path": "z-final-hq.light.b8ce478f.glb",
@@ -1478,7 +1478,7 @@
    "stats": {
     "reception": {
      "lite": {
-      "gzipBytes": 233031,
+      "gzipBytes": 224671,
       "triangles": 10394,
       "vertices": 13987,
       "drawCalls": 17,
@@ -1508,7 +1508,7 @@
     },
     "corridor": {
      "lite": {
-      "gzipBytes": 94155,
+      "gzipBytes": 92525,
       "triangles": 1094,
       "vertices": 1916,
       "drawCalls": 11,
@@ -1538,7 +1538,7 @@
     },
     "meeting": {
      "lite": {
-      "gzipBytes": 151422,
+      "gzipBytes": 142058,
       "triangles": 6118,
       "vertices": 9980,
       "drawCalls": 10,
@@ -1568,7 +1568,7 @@
     },
     "open_w": {
      "lite": {
-      "gzipBytes": 205406,
+      "gzipBytes": 200627,
       "triangles": 13804,
       "vertices": 19983,
       "drawCalls": 10,
@@ -1598,7 +1598,7 @@
     },
     "open_c": {
      "lite": {
-      "gzipBytes": 244157,
+      "gzipBytes": 237249,
       "triangles": 14893,
       "vertices": 22096,
       "drawCalls": 10,
@@ -1628,7 +1628,7 @@
     },
     "open_e": {
      "lite": {
-      "gzipBytes": 213501,
+      "gzipBytes": 205950,
       "triangles": 12896,
       "vertices": 18385,
       "drawCalls": 9,
@@ -1658,7 +1658,7 @@
     },
     "open_n": {
      "lite": {
-      "gzipBytes": 172795,
+      "gzipBytes": 163190,
       "triangles": 6676,
       "vertices": 10780,
       "drawCalls": 13,
@@ -1688,7 +1688,7 @@
     },
     "equipment": {
      "lite": {
-      "gzipBytes": 127454,
+      "gzipBytes": 120733,
       "triangles": 5786,
       "vertices": 8812,
       "drawCalls": 14,
@@ -1718,7 +1718,7 @@
     },
     "final": {
      "lite": {
-      "gzipBytes": 71368,
+      "gzipBytes": 68178,
       "triangles": 2647,
       "vertices": 3152,
       "drawCalls": 9,
@@ -1751,7 +1751,7 @@
     "gzipBytes": 129620,
     "textureMB": 1.63
    },
-   "totalBytes": 4216982
+   "totalBytes": 4160290
   }
  },
  "render": {
