@@ -1,0 +1,133 @@
+# Vikilini
+
+> Vikilini — клининговая компания по уборке помещений в Москве и Московской области: регулярная и разовая уборка офисов, бизнес-центров, торговых и складских помещений.
+
+Сайт: https://vikilini.ru/
+Телефон: +7 (495) 796-68-57
+E-mail: order@vikilini.ru
+Офис продаж: Москва, Лужнецкая набережная 2/4 стр.12
+
+## Услуги
+- [Уборка офисов](https://vikilini.ru/uslugi/uborka-ofisov/): Компания коммерческого клининга Vikilini предлагает услуги профессиональной уборки офисов в Москве.
+  - [Утренняя](https://vikilini.ru/uslugi/uborka-ofisov/utrom/): Уборка офиса утром: специфика предоставления услуг.
+  - [Вечерняя](https://vikilini.ru/uslugi/uborka-ofisov/vecherom/): Вечерняя уборка офисов: преимущества и ограничения.
+  - [Генеральная](https://vikilini.ru/uslugi/uborka-ofisov/generalnaya/): Генеральная уборка офисов в Москве: специфика работ.
+  - [После ремонта](https://vikilini.ru/uslugi/uborka-ofisov/posle-remonta/): Комплексная уборка офиса после ремонта под ключ.
+  - [Ежедневная](https://vikilini.ru/uslugi/uborka-ofisov/ezhednevnaya/): Профессиональная ежедневная уборка офисов в Москве и Московской области.
+  - [Регулярная](https://vikilini.ru/uslugi/uborka-ofisov/regulyarnaya-uborka-ofisa/): Предлагаем услуги по регулярной уборке офисов.
+- [Уборка помещений](https://vikilini.ru/uslugi/uborka-pomeshenij/): Уборка помещений в Москве, ежедневная, генеральная, после ремонта, после форс-мажорных ситуаций.
+  - [Влажная](https://vikilini.ru/uslugi/uborka-pomeshenij/vlazhnaya/): Влажная уборка помещений: важные преимущества.
+  - [Сухая](https://vikilini.ru/uslugi/uborka-pomeshenij/suhaya/): Сухая уборка помещений: какие услуги подразумевает, основные требования.
+  - [Санитарная](https://vikilini.ru/uslugi/uborka-pomeshenij/sanitarnaya/): Санитарная уборка помещений: полный комплекс услуг, требования.
+  - [Послестроительная](https://vikilini.ru/uslugi/poslestroitelnaja-uborka/): Послестроительная уборка: какой перечень работ включает, в чем их особенности.
+  - [Генеральная](https://vikilini.ru/uslugi/generalnaja-uborka/): Генеральная уборка помещений в Москве в компании Vikilini – полный комплекс клининговых услуг, гарантия качества работ…
+  - [Комплексная](https://vikilini.ru/uslugi/kompleksnaja-uborka/): Комплексную уборку помещений в Москве можно заказать в компании коммерческого клининга Vikilini.
+- [Уборка зданий](https://vikilini.ru/uslugi/uborka-zdanij/): Уборка зданий в Москве.
+  - [Нежилые помещения](https://vikilini.ru/uslugi/uborka-nezhilyh-pomeshenij/): Уборка нежилых помещений: специфика и виды работ.
+  - [Магазины](https://vikilini.ru/uslugi/uborka-magazina/): Закажите услугу уборки магазина (супермаркета) в Vikilini: выезжаем по Москве и в Подмосковье, привозим все необходимое…
+  - [Бизнес-центры](https://vikilini.ru/uslugi/uborka-biznes-centrov/): Клининговая компания проводит уборку в бизнес-центрах: уход за полами в офисах и галереях, поддержание чистоты, уборка…
+  - [Москва-Сити](https://vikilini.ru/uslugi/uborka-ofisov-moskva-city/): Уборка офисов и апартаментов в Москва-Сити.
+  - [Торговые центры](https://vikilini.ru/uslugi/uborka-torgovyh-centrov/): Уборку торговых центров в Москве можно заказать в компании Vikilini.
+  - [Административные здания](https://vikilini.ru/uslugi/uborka-administrativnyh-zdanij/): Закажите в компании коммерческого клининга Vikilin услуги по уборке административных зданий в Москве и московской…
+- [Уборка территорий](https://vikilini.ru/uslugi/uborka-territorii/): Уборка территорий: какие услуги включает, специфика работ.
+  - [Механизированная уборка](https://vikilini.ru/uslugi/uborka-territorii/mehanizirovannaya/): Механизированная уборка территории: преимущества работ с применением специальной техники.
+  - [Ручная уборка территорий](https://vikilini.ru/uslugi/uborka-territorii/ruchnaya/): Ручная уборка территорий: особенности работ, инвентарь.
+  - [Уборка территории летом](https://vikilini.ru/uslugi/uborka-territorii/letnyaya/): Качественная летняя уборка придомовых территорий.Особенности уборки территорий летом.
+  - [Уборка с территории травы](https://vikilini.ru/uslugi/uborka-territorii/uborka-s-territorii-travy/): Уборка с территории травы, листьев, веток и другие услуги по летней уборке можно заказать в Москве в компании…
+  - [Уборка территории жилого комплекса](https://vikilini.ru/uslugi/uborka-territorii/uborka-territorii-zhilogo-kompleksa/): Уборка территории жилого комплекса: полный комплекс услуг в Vikilini - компания клининга коммерческой недвижимости.
+  - [Уборка территории парков](https://vikilini.ru/uslugi/uborka-territorii/parki/): Уборку территории парков выполняет клининговая компания Vikilini.
+- Мойка окон и фасадов
+  - [Высотная мойка окон](https://vikilini.ru/mojka-okon-alpinistami-v-moskve/): Купить услугу по мытью окон методом промышленного альпинизма можно в нашей компании Vikilin, профессионально…
+  - [Высотная мойка фасадов](https://vikilini.ru/mojka-fasadov-s-alpinistami/): Мойка фасадов с альпинистами: особенности работ, требования к применению специальных средств для чистки.
+  - [Промышленный альпинизм](https://vikilini.ru/promyshlennyj-alpinizm/): Промышленный альпинизм для чистоты окон и фасадов в Московской области.
+- Мойка полов
+  - [Кристаллизация мрамора](https://vikilini.ru/kristallizaciya-mramora/): Кристаллизация мрамора в Москве: особенности процедуры, преимущества.
+  - [Кристаллизация гранита](https://vikilini.ru/kristallizaciya-granita-v-moskve/): Кристаллизация гранита в Москве: особенности технологии, преимущества.
+  - [Восстановление полов](https://vikilini.ru/vosstanovlenie-polov-v-moskve/): Восстановление полов в Москве: особенности шлифовки, полировки, кристаллизации мраморных и гранитных покрытий.
+- Дополнительно
+  - [Дезинфекция помещений](https://vikilini.ru/dezinfekciya-pomeshchenij/): Дезинфекция помещений в Москве с гарантией на выполненные работы.
+  - [Дезинфекция офиса](https://vikilini.ru/uslugi/uborka-ofisov/dezinfekciya-ofisov/): Компания Vikilini предлагает услуги по дезинфекции офиса.
+  - [Дезинфекция холодным туманом](https://vikilini.ru/dezinfekciya-holodnym-tumanom-v-moskve/): Действенная защита от угрозы заражения коронавирусом – обработка помещений и открытых пространств аэрозольным холодным…
+  - [Дезинфекция вентиляции](https://vikilini.ru/uslugi/uborka-ofisov/dezinfekciya-ventilyacii/): Зачем нужно регулярно проводить дезинфекцию вентиляционной системы?
+  - [Дезинфекция холодильника](https://vikilini.ru/uslugi/uborka-ofisov/dezinfekciya-holodilnika/): Дезинфекция холодильников — полезная процедура, которая позволяет удалить любые виды загрязнений, устранить неприятный…
+  - [Уборка после мероприятий](https://vikilini.ru/uslugi/uborka-posle-meropriyatij/): Клининг для юридических лиц, профессиональная уборка помещений до, во время и сразу после мероприятий в Москве и…
+  - [Уборка организаций](https://vikilini.ru/uslugi/uborka-organizacij/): Услуга от Vikilini по уборке организаций.
+  - [Комплексное обслуживание помещений](https://vikilini.ru/kompleksnoe-tehnicheskoe-obsluzhivanie/): Клининговая компания оказывает услуги комплексного обслуживания помещений: чистим, моем, вывозим мусор, наводим порядок…
+- [Химчистка офисов с выездом](https://vikilini.ru/himchistka-ofisov-s-vyezdom/): Химчистка ковролина в офисе в Москве: особенности.
+  - [Химчистка ковров в офисе](https://vikilini.ru/himchistka-kovrov/): Химчистка ковров в офисе в Москве: особенности.
+  - [Химчистка ковролина с выездом](https://vikilini.ru/himchistka-kovrolina/): Качественная химчистка ковролина в Москве с выездом.
+  - [Химчистка мебели в офисах](https://vikilini.ru/himchistka-mebeli-v-ofise/): Закажите услугу профессиональной химчистки с выездом мастеров на объект.
+  - [Химчистка штор в офисе](https://vikilini.ru/himchistka-shtor-v-ofise/): Химчистка штор в офисе: быстро, качественно, эффективно – услуги компании коммерческого клининга Vikilini.
+
+## Города
+- [Работа по области](https://vikilini.ru/goroda/): Профессиональный клининг коммерческой недвижимости в Подмосковье от Vikilini.
+- [Услуги клининга в Апрелевке](https://vikilini.ru/goroda/uslugi-klininga-v-aprelevke/): Услуги клининга от Vikilini:мы производим уборку коммерческих объектов любого назначения.
+- [Услуги клининга в Балашихе](https://vikilini.ru/goroda/uslugi-klininga-v-balashihe/): Наши предложения по клинингу для юридических лиц Балашихи: все виды уборки в офисных, производственных и складских…
+- [Услуги клининга в Белоозёрском](https://vikilini.ru/goroda/uslugi-klininga-v-beloozyorskom/): Услуги клининга в Верее от Vikilini — наведение идеальной чистоты на коммерческих объектах любого назначения. компания…
+- [Услуги клининга в Бронницах](https://vikilini.ru/goroda/uslugi-klininga-v-bronnicah/): Компания Vikilini выполнит клининг объекта любой сложности в Бронницах.
+- [Услуги клининга в Дедовске](https://vikilini.ru/goroda/uslugi-klininga-v-dedovske/): Заказывайте услуги по уборке в Дедовске в нашей компании Vikilini.
+- [Услуги клининга в Дмитрове](https://vikilini.ru/goroda/uslugi-klininga-v-dmitrove/): Заказывайте услуги по уборке в Дмитрове в компании Vikilini.
+- [Услуги клининга в Долгопрудном](https://vikilini.ru/goroda/uslugi-klininga-v-dolgoprudnom/): Услуги нашей компании Vikilini по цене выгодно отличаются от предложений других компаний.
+- [Услуги клининга в Домодедово](https://vikilini.ru/goroda/uslugi-klininga-v-domodedovo/): Заказывайте услуги по уборке в Домодедово в нашей компании Vikilini.
+- [Услуги клининга в Дрезне](https://vikilini.ru/goroda/uslugi-klininga-v-drezne/): Услуги клининга в Дрезне – профессиональная уборка для офисов и бизнеса.
+- [Услуги клининга в Дубне](https://vikilini.ru/goroda/uslugi-klininga-v-dubne/): Ищете надежные услуги клининга в Дубне?
+- [Услуги клининга в Дзержинске](https://vikilini.ru/goroda/uslugi-klininga-v-dzerzhinske/): Услуги компании Vikilini по стоимости выгодно отличаются от средней цены в сфере клининга.
+- [Услуги клининга в Егорьевске](https://vikilini.ru/goroda/uslugi-klininga-v-egorevske/): Профессиональные услуги клининга в Егорьевске для компаний и организаций бизнеса любого уровня.
+- [Услуги клининга в Голицыно](https://vikilini.ru/goroda/uslugi-klininga-v-golicyno/): Услуги нашей компании Vikilini по стоимости выгодно отличаются от предложений других компаний.
+- [Услуги клининга в Истре](https://vikilini.ru/goroda/uslugi-klininga-v-istre/): Услуги нашей компании Vikilini по стоимости выгодно отличаются от предложений других компаний.
+- [Услуги клининга в Ивантеевке](https://vikilini.ru/goroda/uslugi-klininga-v-ivanteevke/): Заказывайте услуги по уборке в Ивантеевке в нашей компании Vikilini.
+- [Услуги клининга в Кашире](https://vikilini.ru/goroda/uslugi-klininga-v-kashire/): Заказывайте услуги по уборке в Кашире в нашей компании Vikilini.
+- [Услуги клининга в Верее](https://vikilini.ru/goroda/uslugi-klininga-v-veree/): Услуги клининга в Верее от Vikilini — наведение идеальной чистоты на коммерческих объектах любого назначения. компания…
+- [Услуги клининга в Видном](https://vikilini.ru/goroda/uslugi-klininga-v-vidnom/): Выгодное предложение от клининговой компании Vikilini в Видном: уборка коммерческих объектов и прилегающих территорий.
+- [Услуги клининга в Волоколамске](https://vikilini.ru/goroda/uslugi-klininga-v-volokolamske/): Услуги клининга от Vikilini в Волоколамске — идеальная чистота за умеренную цену.
+- [Услуги клининга в Воскресенске](https://vikilini.ru/goroda/uslugi-klininga-v-voskresenske/): Услуги нашей компании Vikilini по стоимости выгодно отличаются от предложений других компаний.
+- [Услуги клининга в Высоковске](https://vikilini.ru/goroda/uslugi-klininga-v-vysokovske/): Заказывайте услуги по уборке в Высоковске с нашей компании Vikilini.
+- [Услуги клининга в Зарайске](https://vikilini.ru/goroda/uslugi-klininga-v-zarajske/): Услуги клининга в Зарайске для компаний и организаций бизнеса любого уровня.
+- [Услуги клининга в Жуковском](https://vikilini.ru/goroda/uslugi-klininga-v-zhukovskom/): Компания предоставляет услуги клининга в городе Жуковском для организаций.
+- [Услуги клининга в Звенигороде](https://vikilini.ru/goroda/uslugi-klininga-v-zvenigorode/): Услуги клининга в Зарайске для компаний и организаций бизнеса любого уровня.
+
+## Статьи
+- [Новости](https://vikilini.ru/news/): Новости.
+- [Наш подход в борьбе с коронавирусом](https://vikilini.ru/news/nash-podhod-v-borbe-s-koronavirusom/): Наш подход в борьбе с коронавирусом!
+- [Система безведерной уборки Vileda Professional](https://vikilini.ru/news/sistema-bezvedernoj-uborki-vileda-professiona/): Система безведерной уборки Vileda Professional: особенности технологии, преимущества.
+- [Компания ООО «Викилини» вошла в ТОП-1000 успешных поставщиков по итогам 2019 года](https://vikilini.ru/news/vikilini-top-1000-uspeshnyh-postavschikov/): Новости компании.
+- [Статьи](https://vikilini.ru/stati/): Статьи.
+- [Что выбрать для офиса — бумажные полотенца или сушилки для рук?](https://vikilini.ru/stati/chto-vybrat-dlya-ofisa-bumazhnye-polotenca-ili-sushilki-dlya-ruk/): Что выбрать для офиса – бумажные полотенца или сушилки для рук?
+- [Дезинфекция и санитарная обработка бизнес-центров при коронавирусе](https://vikilini.ru/stati/dezinfekciya-i-sanitarnaya-obrabotka-biznes-centrov-pri-koronaviruse/): Дезинфекция и санитарная обработка бизнес-центров при коронавирусе: нормативные требования к клинингу, средствам…
+- [Как часто надо делать чистку технических этажей](https://vikilini.ru/stati/kak-chasto-nado-delat-chistku-tekhnicheskih-etazhej/): Необходимость противоаллергенной уборки мест общественного пользования в ЖК: главные требования и специфика работ.
+- [Какие изменения в уборке офисов после пандемии](https://vikilini.ru/stati/kakie-izmeneniy-v-uborke-ofisov-posle-pandemii/): Какие изменения в уборке офисов после пандемии, – рекомендации специалистов клининговой компании Vikilini.
+- [Комплексная или поддерживающая уборка? Какую выбрать?](https://vikilini.ru/stati/kompleksnaya-ili-podderzhivayushchaya-uborka/): Компания Vikilin предлагает клининговые услуги государственным и частным компаниям, предприятиям, учреждениям.
+- [Необходимость противоаллергенной уборка мопов в ЖК](https://vikilini.ru/stati/neobhodimost-protivoallergennoj-uborka-mopov-v-zhk/): Необходимость противоаллергенной уборки мест общественного пользования в ЖК: главные требования и специфика работ.
+- [Необходимость противоаллергенной уборка офисов](https://vikilini.ru/stati/neobhodimost-protivoallergennoj-uborka-ofisov/): Необходимость противоаллергенной уборки офисов.
+- [Об уборке помещений после ремонта](https://vikilini.ru/stati/ob-uborke-pomeshchenij-posle-remonta/): Об уборке помещений после ремонта.
+- [Особенности химчистки ковролина в офисе](https://vikilini.ru/stati/osobennosti-himchistki-kovrolina-v-ofise/): Воспользуйтесь услугами нашей компании Vikilini, закажите профессиональную химическую чистку ковролина в офисе.
+- [Особенности уборки придомовой территории в зимнее время](https://vikilini.ru/stati/osobennosti-uborki-pridomovoj-territorii-v-zimnee-vremya/): Особенности уборки придомовой территории в зимнее время.
+- [Поддерживающая уборка](https://vikilini.ru/stati/podderzhivayushchaya-uborka/): Поддерживающая уборка.
+- [Привлечение позитивной энергии в офис](https://vikilini.ru/stati/prevlechenie-pozitivnoi-energii-v-ofis/): Привлечение позитивной энергии в офис, правила фэн-шуй – советы специалистов компании Vikilini.
+- [Профессиональное мытье окон](https://vikilini.ru/stati/professionalnoe-myte-okon/): Профессиональное мытье окон.
+- [Рекомендации ВОЗ для сотрудников офиса](https://vikilini.ru/stati/rekomendacii-voz-dlya-sotrudnikov-ofisa/): Рекомендации ВОЗ для сотрудников офиса как сохранить здоровье.
+- [Результативность различных дезинфицирующих средств](https://vikilini.ru/stati/rezultativnost-razlichnyh-dezinficiruyushchih-sredstv/): Результативность различных дезинфицирующих средств.
+- [Советы по уборке офиса](https://vikilini.ru/stati/soveti-po-uborke-ofisa/): Советы по уборке офиса от специалистов клининговой компании Vikilini – гарантия качества, опытные специалисты…
+- [Советы по поддержанию чистоты в офисе](https://vikilini.ru/stati/sovety-po-podderzhaniyu-chistoty-v-ofise-2/): Советы по поддержанию чистоты в офисе от специалистов клининговой компании Vikilini.
+- [Советы по поддержанию чистоты в офисе](https://vikilini.ru/stati/sovety-po-podderzhaniyu-chistoty-v-ofise/): Советы по поддержанию чистоты в офисе от специалистов клининговой компании Vikilini.
+- [Советы по поддержанию чистоты в подъезде](https://vikilini.ru/stati/sovety-po-podderzhaniyu-chistoty-v-podezde/): Советы по поддержанию чистоты в подъезде, нормы и правила согласно российскому законодательству.
+- [Уборка подъездов в период обострения заболеваний](https://vikilini.ru/stati/uborka-podezdov-v-period-obostreniya-zabolevanij/): Уборка подъездов период обострения заболеваний: санитарные требования, особенности работ.
+- [Уборка подземного паркинга бизнес-центра](https://vikilini.ru/stati/uborka-podzemnogo-parkinga-biznes-centra/): Уборку подземного паркинга бизнес-центра в Москве можно заказать в компании Vikilini – полный комплекс клининговых…
+- [Уход за офисными растениями](https://vikilini.ru/stati/uhod-za-ofisnimi-rasteniami/): Заказывайте услугу по созданию зелёной зоны в помещении офиса или бизнес-центра в нашей компании Vikilini.
+
+## Компания
+- [Акции](https://vikilini.ru/akcii/): Акции от компании коммерческого клининга Vikilini.
+- [Дезинфекция при заключении договора на ежемесячное комплексное обслуживание в подарок!](https://vikilini.ru/akcii/dezinfekciya-v-podarok/): Акция от Vikilini: дезинфекция при заключении договора на ежемесячное комплексное обслуживание в подарок!
+- [Постоянная акция: при заключении договора на комплексное обслуживание помещений — генеральная уборка в подарок](https://vikilini.ru/akcii/generalnaya-uborka-v-podarok/): Постоянная акция от Vikilini: генеральная уборка в подарок при оформлении комплексного обслуживания.
+- [Сезонная акция (весна и осень): мойка остекления со скидкой 10 !](https://vikilini.ru/akcii/moika-ostekleniya-v-podarok/): Сезонная акция от Vikilini: Мойка остекления со скидкой 10 %.
+- [Поддерживающая уборка офиса](https://vikilini.ru/akcii/podderzhivayushchaya-uborka-ofisa-ot-1650-rub-den/): Поддерживающая уборка офиса от 1650 руб/день
+- [Скидка на комплексное обслуживание](https://vikilini.ru/akcii/skidka-na-kompleksnoe-obsluzhivanie/): Акция от Vikilini: скидка на комплексное обслуживание.
+- [Хотите впервые попробовать клининг? У нас есть приятные предложения для вас!](https://vikilini.ru/akcii/want-to-try-cleaning-for-the-first-time/): Хотите впервые попробовать клининг?
+- [Калькулятор стоимости уборки](https://vikilini.ru/calc/): Калькулятор стоимости услуг по уборке офисов, складов и прочих помещений.
+- [Контакты](https://vikilini.ru/contact/): Контакты клининговой компании Vikilini.
+- [Вопросы и ответы](https://vikilini.ru/faq/): Вопросы и ответы.
+- [Наши клиенты](https://vikilini.ru/nashi-klienty/): Клиенты компании Vikilini.
+- [О компании](https://vikilini.ru/o-kompanii/): Наши специалисты уже успешно помогают многим компаниям в Москве наводить чистоту и порядок в своих объектах.
+- [Сертификаты и дипломы](https://vikilini.ru/o-kompanii/sertifikaty-i-diplomy/): Сертификаты и дипломы.
+- [Отзывы о нашей работе](https://vikilini.ru/otzivy/): Отзывы и благодарственные письма о компании коммерческого клининга Vikilini.
+- [Цена на услуги уборки](https://vikilini.ru/prices/): Цены на клининговые услуги в компании Vikilini.
